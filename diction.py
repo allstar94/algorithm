@@ -11,5 +11,11 @@ print(d)
 sd = sorted(d.items(),key=lambda x: x[1], reverse = True)
 
 print(sd)
+a = []
+
 for x,y in sd:
-  print(y)
+  print(x,y)
+for x,y in sd:
+  a.append(y)
+
+print(a)
