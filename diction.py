@@ -12,6 +12,7 @@ sd = sorted(d.items(),key=lambda x: x[1], reverse = True)
 
 print(sd)
 a = []
+cnt=0
 
 for x,y in sd:
   print(x,y)
@@ -19,3 +20,6 @@ for x,y in sd:
   a.append(y)
 
 print(a)
+
+for i in a:
+  print(i)

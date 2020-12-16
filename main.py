@@ -20,3 +20,6 @@ for x,y in sd:
   a.append(y)
 
 print(a)
+
+for i in a:
+  print(i)
