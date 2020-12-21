@@ -1,8 +1,8 @@
-H, M = map(int, input().split())
+N, X = map(int, input().split())
 
-if M > 44:
-  print(H, M-45)
-elif M < 45 and H > 0:
-  print(H-1, M+15)
-else:
-  print(23,M+15)
+
+num_list = list(map(int, input().split()))
+
+for i in range(0,N):
+  if(num_list[i] < X):
+    print(num_list[i],end = ' ')
